@@ -27,3 +27,28 @@ const frutas = ["manzana", "pera", "plátano", "fresa"]
 
 document.write("El array de frutas es: " + frutas + "<br>")
 document.write("El array de frutas tiene una longitud de: " + frutas.length + "<br>")
+
+//asignar un nuevo valor a la propiedad
+frutas.length = 2
+
+document.write("El Array de frutas es: " + frutas + "<br>")
+document.write("Nuevo valor: " + frutas.length + "<br>")
+
+//METODOS DE ARRAYS
+document.write("<h3>Metodos de arrays </h3>")
+
+document.write("<h4>.push() </h4>")
+
+const frutas2 = ["platano", "fresa"]
+/*frutas2.push("naranja")
+document.write("El nuevo elemento añadido al array es: " + frutas2 + "<br>")
+
+*/
+//devolver el nuevo longitud del array
+
+document.write("longitud del array: " + frutas2.length + "<br>")
+
+const newLength = frutas2.push("naranja")
+document.write("nueva longitud del array: " + newLength + "<br>")
+document.write(frutas2)
+
